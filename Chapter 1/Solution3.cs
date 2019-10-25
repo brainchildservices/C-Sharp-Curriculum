@@ -9,7 +9,9 @@ namespace Problem3
                     return true;
                 }
                 else 
-                return false;
+                {
+                    return false;
+                }
         }
     }
 }
