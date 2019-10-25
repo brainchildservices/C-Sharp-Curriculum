@@ -13,30 +13,29 @@ namespace Problem3Tests
         public void Test_Number_Greater_Than_Five()
         {
             Solution3 solution = new Solution3();
-            bool status =(10>5);
+            bool status =solution.GreaterThan5(10);
             Assert.IsTrue(status);
         }
         [Test]
         public void Test_Number_Equal_To_Five()
         {
             Solution3 solution = new Solution3();
-            bool status =(5>5);
+            bool status =solution.GreaterThan5(5);
             Assert.IsFalse(status);
         }
         [Test]
         public void Test_Negative_Number()
         {
             Solution3 solution = new Solution3();
-            bool status =(-5>5);
+            bool status =solution.GreaterThan5(-5);
             Assert.IsFalse(status);
         }
         [Test]
         public void Test_Number_Zero()
         {
             Solution3 solution = new Solution3();
-            bool status =(0>5);
+            bool status =solution.GreaterThan5(0);
             Assert.IsFalse(status);
         }
-        
     }
 }
