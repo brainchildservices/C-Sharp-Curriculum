@@ -1,4 +1,4 @@
-namespace Curriculum
+namespace Problem1
 {
     public class Solution1
         {

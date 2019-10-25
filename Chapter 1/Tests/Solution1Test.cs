@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using Curriculum;
+using Problem1;
 
-namespace Curriculum
+namespace Problem1Test
 {
     public class Solution1Test
     {

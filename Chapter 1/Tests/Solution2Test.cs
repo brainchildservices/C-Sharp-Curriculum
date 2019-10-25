@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using Problem2;
-namespace Solution1Test
+namespace Problem2Test
 {
     public class Solution2Test
     {
